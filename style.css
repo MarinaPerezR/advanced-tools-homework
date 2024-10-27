@@ -1,3 +1,26 @@
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px !important;
+    line-height: 1.5;
+    text-align: center;
+  }
+  h2 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 80px;
+  }
+}
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
